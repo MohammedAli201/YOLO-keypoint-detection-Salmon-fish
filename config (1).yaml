@@ -1,0 +1,15 @@
+# Data
+path: /content/data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Keypoints
+kpt_shape: [20, 3]  # [number of keypoints, number of dim]
+flip_idx : [10, 0, 11, 1, 12, 2, 13, 3, 14, 4, 15, 5, 16, 6, 17, 7, 18, 8, 19, 9]
+
+
+
+
+# Classes
+names:
+  0: fish
