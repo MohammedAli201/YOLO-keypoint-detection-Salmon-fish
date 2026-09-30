@@ -6,6 +6,8 @@ Detecting a fish is only the first step. This project explores **20 anatomical k
 
 *The preview shows existing dataset annotations, not model predictions. Keypoint numbers are zero-based indices. No new detection accuracy is claimed.*
 
+[Research walkthrough](docs/research-walkthrough.md) · [Dataset checks](scripts/validate_dataset.py) · [Training helper](scripts/train.py)
+
 ## What is in the repository
 
 The research notebook uses Ultralytics YOLOv8 pose estimation. The geometric-analysis scripts calculate distances, slopes and ratios from keypoints and compare measurements with baseline CSV data.
