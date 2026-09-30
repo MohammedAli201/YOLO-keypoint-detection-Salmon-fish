@@ -1,0 +1,8 @@
+ultralytics
+PyYAML
+numpy
+Pillow
+matplotlib
+pandas
+scipy
+seaborn

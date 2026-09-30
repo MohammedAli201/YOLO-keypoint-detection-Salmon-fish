@@ -1,0 +1,9 @@
+# scripts/train.py resolves path to this repository's data directory.
+path: data
+train: images/train
+val: images/val
+kpt_shape: [20, 3]
+names:
+  0: fish
+# Horizontal flipping is disabled in scripts/train.py until the anatomical
+# left/right permutation is independently documented and checked.
